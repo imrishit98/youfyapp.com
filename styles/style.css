@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1ed760;
+  color: black;
+}
+
+.container .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 95vh;
+  text-align: center;
+}
+
+.container .txt a {
+  color: white;
+  text-decoration: none;
+}
+
+.container .txt a:hover {
+  color: yellow;
+}
+
+.container .lottie-anim {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container .lottie-anim {
+    width: 64vw;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
