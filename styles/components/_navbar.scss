@@ -1,0 +1,25 @@
+.navbar {
+  @include container;
+  height: $nav-h;
+  justify-content: space-between;
+  .links {
+    display: flex;
+    gap: 1rem;
+    a {
+      font-weight: 600;
+      color: black;
+    }
+  }
+  .logo {
+    a {
+      font-weight: 800;
+      color: black;
+      font-size: 2rem;
+    }
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+@import './variables';
+@import './mixins';
+
+@import './global';
+
+// componenets
+@import './components/navbar';
+@import './components/footer';
+
+// pages
+@import './pages/index';

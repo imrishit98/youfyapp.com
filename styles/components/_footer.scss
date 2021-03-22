@@ -1,0 +1,25 @@
+footer {
+  @include container;
+  justify-content: space-between;
+  background-color: $dark-color;
+  color: $white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: {
+    top: 1.1rem;
+    bottom: 1.1rem;
+  }
+  .links {
+    display: flex;
+    gap: 1rem;
+  }
+  p {
+    cursor: pointer;
+    &:hover {
+      span {
+        font-weight: 700;
+        color: rgb(250, 50, 35);
+      }
+    }
+  }
+}
