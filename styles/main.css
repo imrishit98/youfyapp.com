@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #8c30f5;
+  color: #aa66f8;
 }
 
 code {
@@ -48,10 +48,25 @@ code {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 14vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
   height: 4.5rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 641px) {
+  .navbar {
+    padding: 0 4vw;
+  }
+}
+
+@media (max-width: 1025px) {
+  .navbar {
+    padding: 0 6vw;
+  }
 }
 
 .navbar .links {
@@ -79,6 +94,28 @@ code {
   gap: 1rem;
 }
 
+@media (max-width: 641px) {
+  .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .navbar .social-links {
+    display: none;
+  }
+}
+
+@media (max-width: calc(641px/ 2)) {
+  .navbar .links {
+    gap: 0.6rem;
+    font-size: 0.8rem;
+  }
+  .navbar .logo a {
+    font-size: 1.4rem;
+  }
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,6 +127,9 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 14vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -99,6 +139,18 @@ footer {
   font-weight: 600;
   padding-top: 1.1rem;
   padding-bottom: 1.1rem;
+}
+
+@media (max-width: 641px) {
+  footer {
+    padding: 0 4vw;
+  }
+}
+
+@media (max-width: 1025px) {
+  footer {
+    padding: 0 6vw;
+  }
 }
 
 footer .links {
@@ -117,6 +169,18 @@ footer p:hover span {
   color: #fa3223;
 }
 
+@media (max-width: 641px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
 .home-page section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,9 +192,24 @@ footer p:hover span {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 14vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
   gap: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+@media (max-width: 641px) {
+  .home-page section {
+    padding: 0 4vw;
+  }
+}
+
+@media (max-width: 1025px) {
+  .home-page section {
+    padding: 0 6vw;
+  }
 }
 
 .home-page section .text {
@@ -164,6 +243,53 @@ footer p:hover span {
   padding-right: 3.2rem;
 }
 
+@media (max-width: 641px) {
+  .home-page section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .home-page section .image {
+    width: 66vw;
+    height: auto;
+  }
+  .home-page section .image img {
+    width: 100%;
+  }
+  .home-page section .text {
+    gap: 1rem;
+    max-width: 100%;
+    padding-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .home-page section .text h1 {
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 2.6rem;
+  }
+  .home-page section .text h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+  }
+  .home-page section .text .subheading {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: 0;
+    line-height: 1.1rem;
+  }
+}
+
 .home-page .btn {
   font-weight: 600;
   padding: 0.8rem 2.5rem;
@@ -183,8 +309,8 @@ footer p:hover span {
   text-align: center;
   gap: 3.2rem;
   color: #fff;
-  padding-top: 4.4rem;
-  padding-bottom: 4.4rem;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
 }
 
 .home-page .get-now h1 {
@@ -202,5 +328,39 @@ footer p:hover span {
 .home-page .get-now .btn:hover {
   background-color: #130720;
   color: #fff;
+}
+
+@media (max-width: 641px) {
+  .home-page .hero {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .home-page .second-feature {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .home-page .get-now {
+    gap: 1.5rem;
+  }
+  .home-page .get-now h1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+  }
+  .home-page .get-now .btn {
+    background-color: #fff;
+    color: #8c30f5;
+    font-weight: 700;
+  }
+  .home-page .get-now .btn:hover {
+    background-color: #130720;
+    color: #fff;
+  }
 }
 /*# sourceMappingURL=main.css.map */

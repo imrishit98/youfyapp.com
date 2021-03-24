@@ -1,6 +1,22 @@
+// Media queries
+@mixin maxW($wVal) {
+  @media (max-width: ($wVal)) {
+    @content;
+  }
+}
+
 @mixin container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 14vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  @include maxW($sm) {
+    padding: 0 4vw;
+  }
+  @include maxW($lg) {
+    padding: 0 6vw;
+  }
 }

@@ -34,12 +34,12 @@ const Index = () => {
           </div>
         </section>
 
-        <section>
+        <section className='second-feature'>
           <div className='text'>
             <h2>Transfer your YouTube playlists to Spotify easily</h2>
             <p className='subheading'>
-              Transfer unlimited YouTube playlist to Spotify from YouTube
-              website. No need to switch tabs.
+              Transfer unlimited YouTube playlists to Spotify from YouTube. No
+              need to switch tabs.
             </p>
           </div>
           <div className='image'>
