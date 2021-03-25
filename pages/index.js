@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 
-export default Index = () => {
+export default function Index() {
   return (
     <Layout>
       <Head>
@@ -81,4 +81,4 @@ export default Index = () => {
       </div>
     </Layout>
   );
-};
+}
