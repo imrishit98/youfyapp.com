@@ -19,16 +19,16 @@ const Navbar = () => {
       </div>
       <div className='social-links'>
         <a className='' aria-current='page' href='#'>
-          <img src='/images/instagram.svg' alt='instagram-icon' />
+          <img src='/images/Instagram.svg' alt='instagram-icon' />
         </a>
         <a className='' aria-current='page' href='#'>
           <img src='/images/Facebook.svg' alt='facebook-icon' />
         </a>
         <a className='' aria-current='page' href='#'>
-          <img src='/images/twitter.svg' alt='twitter-icon' />
+          <img src='/images/Twitter.svg' alt='twitter-icon' />
         </a>
         <a className='' aria-current='page' href='#'>
-          <img src='/images/youtube.svg' alt='youtube-icon' />
+          <img src='/images/Youtube.svg' alt='youtube-icon' />
         </a>
       </div>
     </nav>
