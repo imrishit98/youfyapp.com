@@ -12,7 +12,11 @@ const Navbar = () => {
           Support
         </a>
       </div>
-      <div className='logo'>Youfy</div>
+      <div className='logo'>
+        <a className='navbar-brand' href='/'>
+          Youfy
+        </a>
+      </div>
       <div className='social-links'>
         <a className='' aria-current='page' href='#'>
           <img src='/images/Instagram.svg' alt='instagram-icon' />
