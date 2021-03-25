@@ -1,8 +1,16 @@
+import Head from 'next/head';
 import Layout from '../components/layout';
 
 const Index = () => {
   return (
     <Layout>
+      <Head>
+        <title>Youfy - Youtube to Spotify</title>
+        <meta
+          name='description'
+          content='Transfer your favorite YouTube songs and playlists to Spotify with just one click!'
+        />
+      </Head>
       <div className='home-page'>
         <section className='hero'>
           <div className='text'>
@@ -12,7 +20,9 @@ const Index = () => {
               Spotify for free.
             </p>
             <div className='cta'>
-              <input type='button' value='Get it now' className='btn' />
+              <a href='https://cutt.ly/youfy' target='_blank'>
+                <input type='button' value='Get it now' className='btn' />
+              </a>
             </div>
           </div>
 
@@ -63,9 +73,9 @@ const Index = () => {
         <section className='get-now'>
           <h1>Get control over your music. Download Youfy now!</h1>
           <div className='cta'>
-            <button type='button' className='btn'>
-              Get it now
-            </button>
+            <a href='https://cutt.ly/youfy' target='_blank'>
+              <input type='button' value='Get it now' className='btn' />
+            </a>
           </div>
         </section>
       </div>
