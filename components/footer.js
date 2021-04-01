@@ -10,7 +10,10 @@ const Footer = () => {
         Made with 💜 in Ca<span>na</span>da
       </p> */}
       <h2>Youfy</h2>
-      <a href='/'>Loved Youfy? Buy us a coffee!</a>
+      <div className='links'>
+        <Link href='/privacy-policy'>Privacy Policy</Link>
+        <Link href='/terms-and-conditions'>Terms and Conditions</Link>
+      </div>
     </footer>
   );
 };

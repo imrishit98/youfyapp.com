@@ -1,0 +1,20 @@
+.page {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  h1,
+  h2,
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.faq {
+  h1 {
+    margin-bottom: 2rem;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+}

@@ -18,18 +18,6 @@
     }
   }
 
-  .social-links {
-    display: flex;
-    gap: 1rem;
-  }
-
-  @include maxW($sm) {
-    flex-direction: row-reverse;
-    .social-links {
-      display: none;
-    }
-  }
-
   @include maxW(calc(#{$sm}/ 2)) {
     .links {
       gap: 0.6rem;

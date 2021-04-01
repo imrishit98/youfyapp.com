@@ -22,6 +22,10 @@ code {
   font-family: 'Menlo';
 }
 
+.container {
+  @include container;
+}
+
 .btn {
   font-size: inherit;
   font-weight: inherit;

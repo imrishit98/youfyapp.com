@@ -1,16 +1,11 @@
-import Head from 'next/head';
 import Layout from '../components/layout';
 
 export default function Index() {
   return (
-    <Layout>
-      <Head>
-        <title>Youfy - Youtube to Spotify</title>
-        <meta
-          name='description'
-          content='Transfer your favorite YouTube songs and playlists to Spotify with just one click!'
-        />
-      </Head>
+    <Layout
+      title='Youfy - Youtube to Spotify'
+      desc='Transfer your favorite YouTube songs and playlists to Spotify with just one click!'
+    >
       <div className='home-page'>
         <section className='hero'>
           <div className='text'>
