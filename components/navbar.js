@@ -16,6 +16,9 @@ const Navbar = () => {
         <a target='_blank' href='mailto:youfyapp@gmail.com'>
           Support
         </a>
+        <a target='_blank' href='https://ko-fi.com/youfyapp/'>
+          Donate
+        </a>
       </div>
     </nav>
   );
