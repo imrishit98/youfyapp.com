@@ -2,10 +2,7 @@ import Layout from '../components/layout';
 
 export default function Index() {
   return (
-    <Layout
-      title='Youfy - Youtube to Spotify'
-      desc='Transfer your favorite YouTube songs and playlists to Spotify with just one click!'
-    >
+    <Layout>
       <div className='home-page'>
         <section className='hero'>
           <div className='text'>

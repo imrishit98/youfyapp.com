@@ -2,7 +2,7 @@ import Layout from '../components/layout';
 
 const FAQ = () => {
   return (
-    <Layout>
+    <Layout title={'Frequently Asked Questions'}>
       <div className='container page faq'>
         <h1>Frequently Asked Questions</h1>
         <div className='questions'>

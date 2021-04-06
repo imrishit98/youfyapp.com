@@ -2,7 +2,7 @@ import Layout from '../components/layout';
 
 const PrivacyPolicy = () => {
   return (
-    <Layout title='Privacy Policy - Youfy'>
+    <Layout title='Privacy Policy'>
       <div className='container page privacy-policy'>
         <h1>Privacy Policy</h1>
         <div>

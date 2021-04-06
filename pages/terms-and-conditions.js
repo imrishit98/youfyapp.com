@@ -2,7 +2,7 @@ import Layout from '../components/layout';
 
 const TermsAndConditions = () => {
   return (
-    <Layout title='Terms and Conditions - Youfy'>
+    <Layout title='Terms and Conditions'>
       <div className='container page terms'>
         <h1>Terms and Conditions</h1>
         <p>
