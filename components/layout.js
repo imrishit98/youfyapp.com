@@ -36,8 +36,8 @@ const Layout = ({ title, desc, children }) => {
         <meta property='og:image' content={`${website}/youfy-og-image.png`} />
         <link rel='canonical' href={website + router.pathname} />
         <meta name='twitter:card' content='app' />
-        {/* <meta
-          name='twitter:title'
+        <meta
+          name='twitter:text:title'
           content={title ? `${title} - Youfy` : `Youfy - Youtube to Spotify`}
         />
         <meta
@@ -46,7 +46,7 @@ const Layout = ({ title, desc, children }) => {
             desc ||
             `Quick and easy way to transfer YouTube songs and playlists to your Spotify account without leaving YouTube!`
           }
-        /> */}
+        />
         <meta name='twitter:url' content={website + router.pathname} />
         <meta name='twitter:image' content={`${website}/youfy-og-image.png`} />
       </Head>
