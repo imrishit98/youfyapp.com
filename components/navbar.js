@@ -9,9 +9,9 @@ const Navbar = () => {
         </a>
       </div>
       <div className='links'>
-        <a className='' href='#features'>
+        {/* <a className='' href='#features'>
           Features
-        </a>
+        </a> */}
         <Link href='/faq'>FAQ</Link>
         <a target='_blank' href='mailto:youfyapp@gmail.com'>
           Support

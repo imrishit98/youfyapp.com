@@ -19,7 +19,6 @@ const Layout = ({ title, desc, children }) => {
             `Quick and easy way to transfer YouTube songs and playlists to your Spotify account without leaving YouTube!`
           }
         />
-        <meta property='og:type' content='website' />
         <meta
           name='og:title'
           property='og:title'
@@ -33,10 +32,11 @@ const Layout = ({ title, desc, children }) => {
             `Quick and easy way to transfer YouTube songs and playlists to your Spotify account without leaving YouTube!`
           }
         />
+        <meta property='og:url' content={website + router.pathname} />
+        <meta property='og:image' content={`${website}/youfy-og-image.png`} />
         <link rel='canonical' href={website + router.pathname} />
         <meta property='og:site_name' content='Youfyapp.com' />
-        <meta property='og:url' content={website + router.pathname} />
-        {/* <meta name='twitter:card' content='summary' /> */}
+        <meta name='twitter:card' content='app' />
         <meta
           name='twitter:title'
           content={title ? `${title} - Youfy` : `Youfy - Youtube to Spotify`}
@@ -48,13 +48,8 @@ const Layout = ({ title, desc, children }) => {
             `Quick and easy way to transfer YouTube songs and playlists to your Spotify account without leaving YouTube!`
           }
         />
-        {/* <meta name='twitter:site' content='' />
-        <meta name='twitter:creator' content='' />
-        <link rel='icon' type='image/png' href='/static/images/favicon.ico' />
-        <link rel='apple-touch-icon' href='/static/images/favicon.ico' />
-        <link rel='stylesheet' href='' />
-        <meta property='og:image' content='' />
-        <meta name='twitter:image' content='' /> */}
+        <meta name='twitter:url' content={website + router.pathname} />
+        <meta name='twitter:image' content={`${website}/youfy-og-image.png`} />
       </Head>
       <Navbar />
       <main>{children}</main>
