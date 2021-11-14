@@ -5,7 +5,8 @@
     "dev": "next",
     "dev:watch": "next-remote-watch ./posts",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
@@ -15,6 +16,9 @@
     "next-remote-watch": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "resolutions": {
+    "trim": "^0.0.3"
   },
   "license": "MIT"
 }
