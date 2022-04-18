@@ -9,7 +9,7 @@
     "preinstall": "npx npm-force-resolutions"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "gray-matter": "^4.0.2",
     "next": "^12.1.0",
     "next-mdx-remote": "^3.0.8",
