@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 html {
@@ -13,49 +13,38 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
 a:hover {
   color: #aa66f8;
 }
 
 code {
-  font-family: 'Menlo';
+  font-family: "Menlo";
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0 14vw;
   max-width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
 }
-
 @media (min-width: 1921px) {
   .container {
     padding: 0 26vw;
   }
 }
-
 @media (max-width: 1535px) {
   .container {
     padding: 0 11vw;
   }
 }
-
 @media (max-width: 1025px) {
   .container {
     padding: 0 6vw;
   }
 }
-
 @media (max-width: 641px) {
   .container {
     padding: 0 4vw;
@@ -72,73 +61,54 @@ code {
   border-radius: 4px;
   cursor: pointer;
 }
-
 .btn:hover {
   background-color: #6f0be2;
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0 14vw;
   max-width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
   height: 4.5rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 @media (min-width: 1921px) {
   .navbar {
     padding: 0 26vw;
   }
 }
-
 @media (max-width: 1535px) {
   .navbar {
     padding: 0 11vw;
   }
 }
-
 @media (max-width: 1025px) {
   .navbar {
     padding: 0 6vw;
   }
 }
-
 @media (max-width: 641px) {
   .navbar {
     padding: 0 4vw;
   }
 }
-
 .navbar .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
 }
-
 .navbar .links a {
   font-weight: 600;
   color: black;
 }
-
 .navbar .logo a {
   font-weight: 800;
   color: black;
   font-size: 2rem;
 }
-
 @media (max-width: calc(641px/ 2)) {
   .navbar .links {
     gap: 0.6rem;
@@ -150,22 +120,14 @@ code {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0 14vw;
   max-width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   background-color: #130720;
   color: #fff;
   font-size: 0.9rem;
@@ -173,74 +135,58 @@ footer {
   padding-top: 1.1rem;
   padding-bottom: 1.1rem;
 }
-
 @media (min-width: 1921px) {
   footer {
     padding: 0 26vw;
   }
 }
-
 @media (max-width: 1535px) {
   footer {
     padding: 0 11vw;
   }
 }
-
 @media (max-width: 1025px) {
   footer {
     padding: 0 6vw;
   }
 }
-
 @media (max-width: 641px) {
   footer {
     padding: 0 4vw;
   }
 }
-
 footer .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
 }
-
 footer p {
   cursor: pointer;
 }
-
 footer p:hover span {
   font-weight: 700;
-  color: #fa3223;
+  color: rgb(250, 50, 35);
 }
-
 @media (min-width: 1921px) {
   footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
-
 @media (max-width: 1535px) {
   footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 }
-
 @media (max-width: 769px) {
   footer {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
   }
 }
-
 @media (max-width: 641px) {
   footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
     gap: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -251,15 +197,9 @@ footer p:hover span {
 }
 
 .home-page section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding: 0 14vw;
   max-width: 100%;
   margin: 0 auto;
@@ -268,62 +208,48 @@ footer p:hover span {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
-
 @media (min-width: 1921px) {
   .home-page section {
     padding: 0 26vw;
   }
 }
-
 @media (max-width: 1535px) {
   .home-page section {
     padding: 0 11vw;
   }
 }
-
 @media (max-width: 1025px) {
   .home-page section {
     padding: 0 6vw;
   }
 }
-
 @media (max-width: 641px) {
   .home-page section {
     padding: 0 4vw;
   }
 }
-
 .home-page section .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1rem;
   max-width: 52vw;
   padding-right: 3.2rem;
 }
-
 .home-page section .text h1 {
   font-size: 4.2rem;
   font-weight: 800;
   line-height: 5rem;
 }
-
 .home-page section .text h2 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.6rem;
 }
-
 .home-page section .text .subheading {
   font-size: 1.1rem;
   font-weight: 600;
   padding-right: 3.2rem;
 }
-
 @media (max-width: 1535px) {
   .home-page section {
     padding-top: 2rem;
@@ -337,7 +263,6 @@ footer p:hover span {
     width: 100%;
   }
 }
-
 @media (max-width: 1025px) {
   .home-page section .image {
     width: 86vw;
@@ -347,13 +272,8 @@ footer p:hover span {
     width: 100%;
   }
   .home-page section .text {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 1rem;
     padding: 0;
   }
@@ -373,7 +293,6 @@ footer p:hover span {
     padding-right: 0;
   }
 }
-
 @media (max-width: 769px) {
   .home-page section {
     gap: 2rem;
@@ -397,13 +316,9 @@ footer p:hover span {
     padding-right: 0;
   }
 }
-
 @media (max-width: 641px) {
   .home-page section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -419,12 +334,8 @@ footer p:hover span {
     gap: 1rem;
     max-width: 100%;
     padding-right: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .home-page section .text h1 {
@@ -444,47 +355,37 @@ footer p:hover span {
     padding: 0 8vw;
   }
 }
-
 .home-page .btn {
   font-weight: 600;
   padding: 0.8rem 2.5rem;
 }
-
 .home-page .hero {
   padding-top: 4.4rem;
   padding-bottom: 5rem;
 }
-
 .home-page .get-now {
   background-color: #8c30f5;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
   gap: 3.2rem;
   color: #fff;
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
 }
-
 .home-page .get-now h1 {
   font-size: 4rem;
   font-weight: 700;
   line-height: 5rem;
 }
-
 .home-page .get-now .btn {
   background-color: #fff;
   color: #8c30f5;
   font-weight: 700;
 }
-
 .home-page .get-now .btn:hover {
   background-color: #130720;
   color: #fff;
 }
-
 @media (max-width: 1025px) {
   .home-page .hero .text {
     padding: 0;
@@ -512,7 +413,6 @@ footer p:hover span {
     color: #fff;
   }
 }
-
 @media (max-width: 769px) {
   .home-page .hero .text .subheading {
     font-size: 0.8rem;
@@ -531,21 +431,14 @@ footer p:hover span {
     padding: 0.5rem 1rem;
   }
 }
-
 @media (max-width: 641px) {
   .home-page .hero {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
   .home-page .second-feature {
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: reverse !important;
-        -ms-flex-direction: column-reverse !important;
-            flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
   }
   .home-page .get-now {
     gap: 5vw;
@@ -567,17 +460,11 @@ footer p:hover span {
 }
 
 .page {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
-
 .page h1,
 .page h2,
 .page p {
@@ -587,8 +474,6 @@ footer p:hover span {
 .faq h1 {
   margin-bottom: 2rem;
 }
-
 .faq h2 {
   margin-bottom: 0;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
