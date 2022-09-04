@@ -14,7 +14,8 @@
     "next-mdx-remote": "^4.0.0",
     "next-remote-watch": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-gtm-module": "^2.0.11"
   },
   "resolutions": {
     "trim": "^0.0.3"
