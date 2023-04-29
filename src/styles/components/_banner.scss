@@ -1,0 +1,28 @@
+.banner {
+  @include container;
+  height: $banner-h;
+  display: flex;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $purple;
+  color: $white;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  .link {
+    text-decoration: underline;
+    font-weight: 800;
+    margin-left: 0.3rem;
+    &:hover {
+      a {
+        color: $white;
+      }
+    }
+  }
+  @include maxW(calc(#{$sm}/ 2)) {
+    font-size: 0.8rem;
+  }
+}
