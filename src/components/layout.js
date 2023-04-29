@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Footer from './footer';
 import Navbar from './navbar';
+import { AnnouncementBanner } from './banner';
 
 const Layout = ({ title, desc, children }) => {
   const router = useRouter();
@@ -34,6 +35,7 @@ const Layout = ({ title, desc, children }) => {
         <meta name='twitter:url' content={website + router.pathname} />
         <meta name='twitter:image' content={`${website}/youfy-og-image.png`} />
       </Head>
+      <AnnouncementBanner />
       <Navbar />
       <main>{children}</main>
       <Footer />

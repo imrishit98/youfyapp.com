@@ -65,6 +65,61 @@ code {
   background-color: #6f0be2;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 14vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  height: 2.2rem;
+  display: flex;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #8c30f5;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1921px) {
+  .banner {
+    padding: 0 26vw;
+  }
+}
+@media (max-width: 1535px) {
+  .banner {
+    padding: 0 11vw;
+  }
+}
+@media (max-width: 1025px) {
+  .banner {
+    padding: 0 6vw;
+  }
+}
+@media (max-width: 641px) {
+  .banner {
+    padding: 0 4vw;
+  }
+}
+.banner .link {
+  text-decoration: underline;
+  font-weight: 800;
+  margin-left: 0.3rem;
+}
+.banner .link:hover a {
+  color: #fff;
+}
+@media (max-width: calc(641px/ 2)) {
+  .banner {
+    font-size: 0.8rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: center;
