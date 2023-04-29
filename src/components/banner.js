@@ -7,8 +7,7 @@ export const AnnouncementBanner = () => {
         <a href={'https://aitools.fyi/'} target='_blank'>
           aitools.fyi
         </a>
-      </div>{' '}
-        ✨
+      </div>
     </div>
   );
 };
