@@ -1,0 +1,12 @@
+.blog-page {
+  @include container;
+  gap: 2rem;
+  flex-direction: column;
+  padding: {
+    top: 2rem;
+    bottom: 2rem;
+  }
+  .blog-list {
+    list-style: none;
+  }
+}

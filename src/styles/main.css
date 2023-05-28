@@ -531,4 +531,41 @@ footer p:hover span {
 }
 .faq h2 {
   margin-bottom: 0;
+}
+
+.blog-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 14vw;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  gap: 2rem;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media (min-width: 1921px) {
+  .blog-page {
+    padding: 0 26vw;
+  }
+}
+@media (max-width: 1535px) {
+  .blog-page {
+    padding: 0 11vw;
+  }
+}
+@media (max-width: 1025px) {
+  .blog-page {
+    padding: 0 6vw;
+  }
+}
+@media (max-width: 641px) {
+  .blog-page {
+    padding: 0 4vw;
+  }
+}
+.blog-page .blog-list {
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
