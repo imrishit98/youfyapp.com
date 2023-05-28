@@ -1,12 +1,11 @@
-.blog-page {
+.blog-post-page {
   @include container;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   padding: {
     top: 2rem;
     bottom: 2rem;
-  }
-  .blog-list {
-    list-style: none;
   }
 }
