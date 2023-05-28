@@ -9,16 +9,11 @@ const Navbar = () => {
         </a>
       </div>
       <div className='links'>
-        {/* <a className='' href='#features'>
-          Features
-        </a> */}
         <Link href='/faq'>FAQ</Link>
-        <a target='_blank' href='mailto:youfyapp@gmail.com'>
+        <Link href='/blog'>Blog</Link>
+        <Link target='_blank' href='mailto:youfyapp@gmail.com'>
           Support
-        </a>
-        <a target='_blank' href='https://ko-fi.com/youfyapp/'>
-          Donate
-        </a>
+        </Link>
       </div>
     </nav>
   );
