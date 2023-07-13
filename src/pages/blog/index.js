@@ -15,6 +15,14 @@ const Blog = () => {
               </Link>
             </h2>
           </li>
+          <li>
+            <h2>
+              <Link href='/blog/the-journey-of-lauren-watkins-from-nashville-to-ole-miss-and-back'>
+                The Journey of Lauren Watkins: From Nashville to Ole Miss and
+                Back
+              </Link>
+            </h2>
+          </li>
         </ul>
       </div>
     </Layout>

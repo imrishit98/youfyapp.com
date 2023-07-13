@@ -568,6 +568,16 @@ footer p:hover span {
 }
 .blog-page .blog-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-page .blog-list li {
+  padding: 1rem;
+}
+.blog-page .blog-list li:not(:last-child) {
+  border-bottom: 1px solid #8c30f5;
 }
 
 .blog-post-page {
