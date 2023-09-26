@@ -11,3 +11,9 @@ Features:
 - Export any YouTube playlist as a .txt file
 
 Download Youfy from [Chrome Web Store](https://cutt.ly/youfy) now!
+
+## Our Sponsors
+
+[![PDFPeer](https://pdfpeer.com/og-image.png)](https://pdfpeer.com/)
+[![aitools.fyi](https://aitools.fyi/aitools.fyi-og.png)](https://aitools.fyi/)
+[![Amazing Newsletters](https://amazingnewsletters.com/og-image.png)](https://amazingnewsletters.com/)
