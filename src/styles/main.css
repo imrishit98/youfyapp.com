@@ -418,6 +418,25 @@ footer p:hover span {
   padding-top: 4.4rem;
   padding-bottom: 5rem;
 }
+.home-page .our-sponsors {
+  flex-direction: column;
+  gap: 2rem;
+}
+.home-page .our-sponsors .sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.home-page .our-sponsors .sponsors a {
+  width: 10rem;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+.home-page .our-sponsors .sponsors a:hover {
+  filter: grayscale(0%);
+}
 .home-page .get-now {
   background-color: #8c30f5;
   flex-direction: column;
@@ -472,6 +491,12 @@ footer p:hover span {
   .home-page .hero .text .subheading {
     font-size: 0.8rem;
     padding: 0;
+  }
+  .home-page .our-sponsors .sponsors {
+    gap: 2rem;
+  }
+  .home-page .our-sponsors .sponsors a {
+    width: 8rem;
   }
   .home-page .get-now {
     gap: 1.2rem;

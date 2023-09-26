@@ -1,4 +1,9 @@
 import Layout from '../components/layout';
+import {
+  AIToolsLogo,
+  AmazingNewslettersLogo,
+  PDFPeerLogo,
+} from '../components/logos';
 
 export default function Index() {
   return (
@@ -20,6 +25,30 @@ export default function Index() {
 
           <div className='image'>
             <img src='images/hero123.png' alt='' className='left' />
+          </div>
+        </section>
+
+        <section className='our-sponsors'>
+          <h1>Our Sponsors</h1>
+          <div className='sponsors'>
+            <a
+              href='https://aitools.fyi?ref=youfy&utm_source=youfy&utm_medium=logo&utm_campaign=youfy'
+              target='_blank'
+            >
+              <AIToolsLogo />
+            </a>
+            <a
+              href='https://pdfpeer.com?ref=youfy&utm_source=youfy&utm_medium=logo&utm_campaign=youfy'
+              target='_blank'
+            >
+              <PDFPeerLogo />
+            </a>
+            <a
+              href='https://amazingnewsletters.com?ref=youfy&utm_source=youfy&utm_medium=logo&utm_campaign=youfy'
+              target='_blank'
+            >
+              <AmazingNewslettersLogo />
+            </a>
           </div>
         </section>
 
